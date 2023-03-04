@@ -1,17 +1,15 @@
-# stacked_app
-
-A new Flutter project.
+# Nested Navigation Bug.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+HELLO DANE, I HOPE YOU'RE WELL.
+SO HERE IS THE REQUIRED APP THAT I MADE TO DEMONSTRATE A PROBLEM THAT I'M HAVING. I'VE TRIED TO KEEP IT AS SIMPLE AS POSSIBLE.
+ - FIRST ISSUE IS THAT I CAN'T NAVIGATE TO A NESTED VIEW WITH A NAMED ROUTE, ONLY WIDGET ROUTING WORKS.
 
-A few resources to get you started if this is your first Flutter project:
+ - SECOND ISSUE IS THAT WHEN THE APP STARTS FROM THE [StartupView] AND NAVIGATES TO THE [MainView], AN ERROR IS THROWN WHICH IS "Multiple widgets used the same GlobalKey."
+ BUT WHEN APP'S INITIAL ROUTE IS SET TO [MainView] THEN THE ERROR IS NOT THROWN.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ I BELIEVE THIS SECOND ERROR HAS TO STILL DO WITH THE WAY
+ THE NESTED NAVIGATION IS SETUP.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
